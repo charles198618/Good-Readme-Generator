@@ -21,4 +21,34 @@ function generateMarkdown(data) {
 `;
 }
 
+## Objectives
+
+${data.objectives}
+
+}
+
+## Commands used
+
+${data.commandsused}
+
+}
+
+## Languages used
+
+${data.languagesused}
+
+}
+
+## Motivation
+
+${data.Objectives}
+
+}
+
+## Contributors
+
+${data.Contributors}
+
+}
+
 module.exports = generateMarkdown;
