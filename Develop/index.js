@@ -17,14 +17,18 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => err ? console.error(err) : console.log("It worked!"));
+}
 
 // TODO: Create a function to initialize app
 function init() {
         inquirer  
             .prompt(questions)
             .then((data) => {
-                console.log(data)
+                console.log(data);
+                const info = generateMarkdown(data);
+                writeToFile("README.md", info)
             })
 }
 
