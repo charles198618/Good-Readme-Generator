@@ -5,10 +5,11 @@
 
 This is a README generator that I'm creating. Basically, by typing node.js on the terminal, I have the ability to answer to the question that comes up one after another. Thus, it allows a full-stack web developper to show off what he is able to do. Thus, it is a file that must be well organized.
 
-![Good-Readme-Generator](./.png)
+![Screeshot-Good-Readme-Generator]
+https://docs.google.com/document/d/1_MByrR3Uz2vlrxRjtjlaLOywMK6XDlskpLbxGXgoGcg/edit?usp=sharing
 
 Below is the link to Deployment:
- https://drive.google.com/file/d/1ez1Mzf4tXn5xh5PdIJHLwlw8OUlY5Be4/view?usp=sharing
+https://drive.google.com/file/d/1ez1Mzf4tXn5xh5PdIJHLwlw8OUlY5Be4/view?usp=sharing
 
 
 ## OBJECTIVES
