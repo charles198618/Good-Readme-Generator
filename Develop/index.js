@@ -12,7 +12,32 @@ const questions = [
     {
         type: "input",
         message: "What is a description of the project?",
-        name: "description"
+        name: "description",
+    },
+    {
+        type: "input",
+        message: "What is the project objective?",
+        name: "objectives",
+    },
+    {
+        type: "input",
+        message: "What commands are used to run this project?",
+        name: "commandsused",
+    },
+    {
+        type: "input",
+        message: "What languages were used in this project?",
+        name: "languagesused"
+    },
+    {
+        type: "input",
+        message: "What is the project motivation?",
+        name: "motivation",
+    },
+    {
+        type: "input",
+        message: "Who were the project contributors?",
+        name: "contributors"
     }
 ];
 

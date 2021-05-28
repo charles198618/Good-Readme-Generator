@@ -18,37 +18,35 @@ function generateMarkdown(data) {
 
   ${data.description}
 
-`;
-}
-
-## Objectives
+  ## Objectives
 
 ${data.objectives}
 
-}
 
 ## Commands used
 
 ${data.commandsused}
 
-}
 
 ## Languages used
 
 ${data.languagesused}
 
-}
 
 ## Motivation
 
-${data.Objectives}
+${data.motivation}
 
-}
 
 ## Contributors
 
-${data.Contributors}
+${data.contributors}
 
+
+`;
 }
+
+
+
 
 module.exports = generateMarkdown;
